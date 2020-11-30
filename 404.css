@@ -1,0 +1,106 @@
+@import url ('https://fonts.googleapis.com/css2? family = Roboto: wght @ 100; 300; 400; 900 & display = swap'); 
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif
+    
+}
+.conteiner {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.page_404 {
+    display: flex;
+    flex-direction: column;
+    background-color: sandybrown;
+    background: url(../img/oshibka-404-oshibka-error-404.jpg) center no-repeat ;
+    
+    justify-content:flex-end;
+    width: 75%;
+    height: 100%;
+   order: 2;
+   padding: 10px;
+    }
+
+.error {
+    font-size: 3em;
+}
+.page_404 p {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 2em;
+        
+    }
+ p a {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: #0c0b0b;
+    background-color: #79756a;
+    border-radius: 30px;
+    padding: 3px 10px;
+    }
+    p a:hover {
+        background-color: #79756a;
+       box-shadow: 0 3px 5px  #020202,
+        0 -3px 5px #020202;
+    }
+
+    .left-side {
+    background-color: #f08f3b;
+    width: 25%;
+    height: 100%;
+    order: 1;
+    border-right: 2px solid #995c33;
+    }
+    .right-side {
+        background-color: #f08f3b;
+        width: 25%;
+        height: 100%;
+        order: 3;
+        border-left: 2px solid #995c33;
+        }
+        
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: sandybrown;
+}
+
+
+a {
+    text-decoration: none;
+    color: seagreen;
+    font-size: 2em;
+    padding: 0 30px;
+
+}
+a:hover{
+
+    background-color: #c5e7b5;
+}
+
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: sandybrown;
+    margin-top: -20px;
+}
+footer p {
+    padding: 20px;
+    text-align: center;
+}
