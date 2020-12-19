@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+html{
+ overflow-x: hidden;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: url(../img/fon.jpg) fixed  center  ;
+    
+}
+.container-fluid {
+    width: 95%;
+    background-color: #fff;
+}
+.navbar {
+   
+background-color: turquoise;
+/* width: 100%; */
+}
+.collapse {
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+.navbar-nav {
+    /* margin-left: 400px; */
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.btn1{
+    border: 1px solid #FB8F1D;
+    border-radius: 5px;
+} 
+
+.arrow {
+    position: fixed;
+    bottom: 50px;
+    right: 45px;
+    
+}
+.btn2{
+    width: 150px;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FB8F1D;
+}
+h1{
+    padding-top: 100px;
+    color: #20aa7c;
+    font-weight: 400;
+}
+h3, h4{
+    
+color: #20aa7c;
+font-size: 35px;
+font-weight: 400;
+} 
+p {
+    font-size: 20px;
+}
+h3::after{
+content: " ";
+width: 500px;
+height: 5px;
+border-radius: 3px;
+background-color: #FB8F1D;
+display: block;
+margin: 5px auto;
+
+
+}
+h5 {
+    font-weight: 800;
+}
+/* h3::after{
+    content: url('../img/star.png');
+    
+    } */
+.btn3 {
+    
+    height: 50px;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FB8F1D;
+}
+.Testimonials {
+   
+}
+
+.marginTop{
+    margin-top: 100px;
+}
+hr {
+    width: 32px;
+    padding: 2px;
+    background: #202336;
+    margin-left: 0;
+}
+.card:hover {
+ transform: scale(1.05);
+ transition: 1s;
+}
+.card {
+    transition: 1s;
+}
+
+
+
+
+.card img {
+    height:300px;
+    
+}
+.foto {
+    transition: 1.5s;
+    opacity: 0.7;
+}
+.foto:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+    opacity: 1;
+
+}
+
+
+ul {
+   list-style: none;
+   
+  
+}
+li a {
+   
+    color: #11519b;
+    font-weight: 400; 
+    font-size: 17px;  
+}
+.carousel-item img {
+    width: 100px;
+     height:500px;
+      object-fit: cover; 
+}
+
+
+
+footer{
+    background:  #bbbdc5;
+    
+}
+
+  @media screen and (max-width:600px) {
+    h3::after {
+           
+        content: " ";
+        width:300px;
+        height: 5px;
+        border-radius: 3px;
+        background-color: #FB8F1D;
+        display: block;
+        margin: 5px auto;
+          
+    }
+    .video {
+        width: 100%; 
+    }
+   
+    .Testimonials {
+        
+      flex-direction: column-reverse;
+    }
+}
+
